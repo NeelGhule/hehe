@@ -20,8 +20,8 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            overflow: auto;
-            position: absolute;
+            overflow: hidden;
+            position: relative;
         }
 
         .center-box {
@@ -37,8 +37,8 @@ d-color: #e28eb5;
             align-items: center;
             border-radius: 20px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-           overflow: auto;
-            position: absolute;
+            position: relative;
+            overflow: hidden;
             border: 2px solid #fbb9d3;
         }
 
@@ -142,6 +142,7 @@ d-color: #e28eb5;
 
         
         .thank-you-message {
+            position: absolute;
             left: -100%;
             top: 50%;
             transform: translateY(-50%);
@@ -158,8 +159,6 @@ d-color: #e28eb5;
             padding: 20px;
             border-radius: 15px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            overflow: auto;
-            position: absolute;
         }
        
 
@@ -388,7 +387,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
         backdrop-filter: blur(8px);
         z-index: -1;
         border-radius: 20px;
-        overflow: auto;
     }
     .valentine-button:hover {
     background-color: #ff0066;
